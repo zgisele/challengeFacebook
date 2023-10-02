@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <section class="container">
@@ -26,6 +27,110 @@
         </div> 
 
     </section>
-    
+    <section class="inscription">
+        
+        <form action="">
+            <i class="fas fa-times"></i>
+            <h1>S'inscrire</h1>
+            <h4>C'est rapide et facile.</h4>
+            <hr>
+            <div class="input-nom-prenom">
+                <input type="text" placeholder="Prénom">   
+                <input type="text" placeholder="Nom de famille">   
+            </div>
+            <input type="email" class="num-mdp" placeholder="Numéro de mobile ou e-mail">   
+            <input type="password" class="num-mdp" placeholder="Nouveau mot de passe">
+            <div class="colage">
+                <p class="label-class">Date de  naissance </p>
+                <i class="fa-sharp fa-solid fa-circle-question fa-2xs"></i>
+            </div>
+            <br>  
+            <div class="date-naissance-select">
+                <select>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                    <option value="">13</option>
+                    <option value="">14</option>
+                    <option value="">15</option>
+                    <option value="">16</option>
+                    <option value="">17</option>
+                    <option value="">18</option>
+                    <option value="">19</option>
+                    <option value="">20</option>
+                    <option value="">21</option>
+                    <option value="">22</option>
+                    <option value="">23</option>
+                    <option value="">24</option>
+                    <option value="">25</option>
+                    <option value="">26</option>
+                    <option value="">27</option>
+                    <option value="">28</option>
+                    <option value="">29</option>
+                    <option value="">30</option>
+                    <option value="">31</option>
+                </select>
+                <select>
+                    <option value="">Jan</option>
+                    <option value="">Fev</option>
+                    <option value="">Mars</option>
+                    <option value="">Avr</option>
+                    <option value="">Mai</option>
+                    <option value="">Juin</option>
+                    <option value="">Juill</option>
+                    <option value="">Août</option>
+                    <option value="">Sept</option>
+                    <option value="">Oct</option>
+                    <option value="">Nov</option>
+                    <option value="">Dec</option>
+                </select>
+                 <select>
+                    <option value="">2022</option>
+                    <option value="">2001</option>
+                </select>
+            </div>
+            <p class="label-class">Genre</p>
+            <div class="genres_liste">
+                
+                <span>
+                    <label for="">Femme</label>
+                    <input type="radio" name="genre">
+                </span>
+                <span>
+                    <label for="">Homme</label>
+                    <input type="radio" name="genre">
+                </span>
+                <span>
+                    <label for="">Personalisé</label>
+                    <input type="radio" name="genre">
+                </span>     
+            </div>
+            <div class="texte">
+                <p>Les personnes qui utilisent notre service ont pu importer vos coordonnées sur Facebook.En savoir plus</p>
+                <br>
+                <p>En cliquant sur S'inscrire,vous acceptez nos Conditions génerales,notre politique de confidentialité et notre Politique d'utilisationdes cookies.Vous  recevrez peut-etre des notifications par texto de notre part et vous pouvez à tout moment vous désabonner.</p>
+
+            </div>
+            <div class="center-btn-submit">
+                <input type="submit" value="S'inscrire" id="btn-s-inscrire">
+            </div>
+        </form>
+
+    </section>
+    <!-- <script>
+        function afficher(){
+            document.querySelector('.inscription').classList.toggle('active')
+        }
+    </script>
+     -->
 </body>
 </html>
